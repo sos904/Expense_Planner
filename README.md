@@ -1,16 +1,30 @@
-# expense_planner
+# Budget Planner - Flutter Personal Finance App
 
-A new Flutter project.
+A beautiful, modern, and fully functional **personal budget tracker** built with **Flutter** and **SQLite** (sqflite).
 
-## Getting Started
+Track your income and expenses, visualize spending with interactive pie charts, filter transactions, and manage your money like a pro — all offline!
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Add Income & Expense transactions
+- Predefined categories (Food, Salary, Bills, etc.)
+- Interactive monthly pie chart (toggle between **Category** & **Type** view)
+- Month + Year picker for breakdown
+- Filter transactions: All / Income / Expense
+- Swipe to delete with confirmation
+- Pull-to-refresh
+- Fully offline — data stored locally with SQLite
+- Clean Material 3 design
+- No ads, no tracking, no internet required
+
+## Tech Stack
+
+- **Flutter** (Dart)
+- **sqflite** - Local SQLite database
+- **fl_chart** - Beautiful charts
+- **intl** - Date & currency formatting
+- **Material 3** design
+
+## Project Structure
